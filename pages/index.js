@@ -140,7 +140,7 @@ const Index = () => {
               Download
             </button>
             <a
-              href={`wa.me://send?text='+encodeURIComponent(${image})`}
+              href={`https://wa.me://send?text=` + encodeURIComponent(image)}
               className="btn"
               style={{
                 backgroundColor: "green",
