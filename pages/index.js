@@ -135,7 +135,7 @@ const Index = () => {
 
             <button
               className="btn"
-              onClick={() => saveAs(image, "WhatsApp wrapped")}
+              onClick={() => saveAs(image, "WhatsApp.png")}
             >
               Download
             </button>
@@ -145,7 +145,6 @@ const Index = () => {
               style={{
                 backgroundColor: "green",
               }}
-              onClick={() => saveAs(image, "WhatsApp wrapped")}
             >
               Share on WhatsApp
             </a>
