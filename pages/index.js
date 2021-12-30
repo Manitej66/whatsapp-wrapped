@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -129,16 +130,7 @@ const Index = () => {
         {image && (
           <>
             <div className="image">
-              {image && (
-                <Image
-                  src={image}
-                  width={1.8}
-                  quality={100}
-                  height={1}
-                  alt="pic"
-                  layout="responsive"
-                />
-              )}
+              {image && <img src={image} width="100%" alt="pic" />}
             </div>
 
             <button
